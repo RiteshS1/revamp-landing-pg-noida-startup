@@ -5,24 +5,21 @@ import { Testimonial } from "@/types/testimonial";
 import TestimonialCarousel from "./ui/TestimonialCarousel";
 import TestimonialSkeleton from "./ui/TestimonialSkeleton";
 
-const testimonials: Testimonial[] = [
-  {
+const testimonials: Testimonial[] = [  {
     quote:
-      "ZenStreet.Ai's concept is impressive. I can see how letting them handle admin and client engagement would let me focus on delivering quality care",
+      "ZenStreet.Ai&apos;s concept is impressive. I can see how letting them handle admin and client engagement would let me focus on delivering quality care",
     name: "Dr Sachitra Chakravorty",
     title: "Clinical Psychologist",
     bg: "bg-[#E0FFCF]",
-  },
-  {
+  },  {
     quote:
-      "Zenstreet's focus on invoicing is impressive. Just looking at the concept, I can see how it could help me in saving time needed for maintaining book.",
+      "Zenstreet&apos;s focus on invoicing is impressive. Just looking at the concept, I can see how it could help me in saving time needed for maintaining book.",
     name: "Dr. Vipul Kumar",
     title: "Clinical Psychologist",
     bg: "bg-[#F6C9B7]",
-  },
-  {
+  },  {
     quote:
-      "As a psychologist, I know that a well-run practice is key to effective care. ZenStreet.Ai's approach to delivering insights is just the tool I need for enhancing my practice.",
+      "As a psychologist, I know that a well-run practice is key to effective care. ZenStreet.Ai&apos;s approach to delivering insights is just the tool I need for enhancing my practice.",
     name: "Dr. Ayesha Jain",
     title: "Therapist",
     bg: "bg-[#86E0FF]",

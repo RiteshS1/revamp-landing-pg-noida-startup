@@ -12,8 +12,7 @@ const ourStory: React.FC = () => {
             <h1 className="text-gray-600 font-bold text-lg sm:text-xl">
               Where Technology Meets Wellness
             </h1>
-            <p className="tracking-wide sm:tracking-widest text-gray-600 text-base sm:text-lg leading-relaxed">
-              At Zenstreet, we're driven by a simple belief: technology has the
+            <p className="tracking-wide sm:tracking-widest text-gray-600 text-base sm:text-lg leading-relaxed">              At Zenstreet, we&apos;re driven by a simple belief: technology has the
               power to elevate the human experience. Our journey began on a
               random Tuesday in March 2024 when our Founder, Ishan, found
               himself musing on an idea—one that could transform everyday
@@ -50,13 +49,11 @@ const ourStory: React.FC = () => {
           </div>
           <div className="flex flex-col items-start gap-6 md:gap-10">
             <h1 className="text-gray-600 font-bold text-lg sm:text-xl">Our Team</h1>
-            <p className="tracking-wide sm:tracking-widest text-gray-600 text-base sm:text-lg leading-relaxed">
-              Our team is our backbone. We're proud to be a diverse group of
+            <p className="tracking-wide sm:tracking-widest text-gray-600 text-base sm:text-lg leading-relaxed">              Our team is our backbone. We&apos;re proud to be a diverse group of
               passionate developers, innovative designers, and strategic
-              marketers who have dedicated countless hours to turning
-              Zenstreet's vision into reality. Each key member brings unique
+              marketers who have dedicated countless hours to turningZenstreet&apos;s vision into reality. Each key member brings unique
               expertise to the table, from creating cutting-edge technical
-              solutions to crafting engaging, user-centered designs. It's this
+              solutions to crafting engaging, user-centered designs. It&apos;s this
               collective commitment and collaborative spirit that has helped us
               build a platform designed to empower wellness professionals and
               transform lives.
@@ -64,11 +61,10 @@ const ourStory: React.FC = () => {
           </div>
           <div className="flex flex-col items-start gap-6 md:gap-10">
             <h1 className="text-gray-600 font-bold text-lg sm:text-xl">Looking Ahead</h1>
-            <p className="tracking-wide sm:tracking-widest text-gray-600 text-base sm:text-lg leading-relaxed">
-              Our journey is just beginning. With Chapter 1 nearly complete,
-              we're already setting our sights on the future—crafting visions
+            <p className="tracking-wide sm:tracking-widest text-gray-600 text-base sm:text-lg leading-relaxed">              Our journey is just beginning. With Chapter 1 nearly complete,
+              we&apos;re already setting our sights on the future—crafting visions
               for Chapter 2, Chapter 4, and beyond. Guided by our bootstrapped
-              ethos and a commitment to learning from every step, we're
+              ethos and a commitment to learning from every step, we&apos;re
               determined to evolve Zenstreet into a full-fledged wellness
               ecosystem operating system. One that not only supports therapists
               in managing and analyzing notes but also provides an affordable,

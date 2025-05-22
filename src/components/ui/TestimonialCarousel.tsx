@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useCallback } from 'react';
-import { motion, useAnimation, TargetAndTransition } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { TestimonialCarouselProps } from '@/types/testimonial';
 import TestimonialCard from './TestimonialCard';
 
@@ -14,19 +14,30 @@ const TestimonialCarousel: React.FC<TestimonialCarouselProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const controls = useAnimation();
   const duplicatedTestimonials = [...testimonials, ...testimonials];
-
   const startAnimation = useCallback(async () => {
     if (!isHovered && document.visibilityState === 'visible') {
-      const animation = {
-        [isMobile ? 'x' : 'y']: isMobile ? ['0%', '-50%'] : ['-50%', '0%'],
-        transition: {
-          duration: ANIMATION_DURATION,
-          repeat: Infinity,
-          repeatType: "loop",
-          ease: "linear"
-        }
-      } as const;
-      await controls.start(animation as any);
+      // Define animations based on mobile/desktop
+      if (isMobile) {
+        await controls.start({
+          x: ['0%', '-50%'],
+          transition: {
+            duration: ANIMATION_DURATION,
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "linear"
+          }
+        });
+      } else {
+        await controls.start({
+          y: ['-50%', '0%'],
+          transition: {
+            duration: ANIMATION_DURATION,
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "linear"
+          }
+        });
+      }
     }
   }, [controls, isHovered, isMobile]);
 

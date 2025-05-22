@@ -247,9 +247,8 @@ const LandingForm: React.FC = () => {
                   <div className="flex flex-col gap-6 sm:gap-8">
                     <p className="text-sm sm:text-base text-black leading-relaxed">
                       We have received your request,
-                    </p>
-                    <p className="text-sm sm:text-base text-black leading-relaxed">
-                      You're now on your way to regaining control <br className="hidden sm:block" />
+                    </p>                    <p className="text-sm sm:text-base text-black leading-relaxed">
+                      You&apos;re now on your way to regaining control <br className="hidden sm:block" />
                       and supercharging your revenue.
                     </p>
                     <p className="text-sm sm:text-base text-black leading-relaxed">

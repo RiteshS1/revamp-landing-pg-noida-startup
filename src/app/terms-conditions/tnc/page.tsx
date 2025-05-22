@@ -13,16 +13,15 @@ const tnc: React.FC = () => {
           <h2 className="text-gray-600 font-bold text-base sm:text-lg">
             Last Updated: March 2025
           </h2>
-          <p className="tracking-wider sm:tracking-widest text-gray-600 text-base sm:text-lg ml-4 sm:ml-8">
-            <li>
-              This Agreement (the "Agreement") is entered into by and between
+          <p className="tracking-wider sm:tracking-widest text-gray-600 text-base sm:text-lg ml-4 sm:ml-8">            <li>
+              This Agreement (the &quot;Agreement&quot;) is entered into by and between
               ISAZEN TECHNOLOGIES PRIVATE LIMITED, operating under the brand
-              name "Zenstreet" (the "Company"), and the licensed therapist
-              ("User") who registers on the Zenstreet platform. This Agreement
-              sets forth the complete terms and conditions governing the User's
+              name &quot;Zenstreet&quot; (the &quot;Company&quot;), and the licensed therapist
+              (&quot;User&quot;) who registers on the Zenstreet platform. This Agreement
+              sets forth the complete terms and conditions governing the User&apos;s
               access to and use of the Platform, including but not limited to
               clinic management, booking facilitation, payment processing, and
-              related support services (collectively, the "Services"). The
+              related support services (collectively, the &quot;Services&quot;). The
               Parties agree that their success is intertwined and that this
               Agreement reflects their shared objectives for transparency,
               performance, and growth.
@@ -36,9 +35,8 @@ const tnc: React.FC = () => {
           <p className="tracking-wider sm:tracking-widest text-gray-600 text-base sm:text-lg">
             Purpose and Scope:
           </p>
-          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              This Agreement governs all aspects of the User's engagement with
+          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+              This Agreement governs all aspects of the User&apos;s engagement with
               the Zenstreet Platform. It covers the registration process,
               profile creation, the establishment of session pricing, payment
               processing (including bank account details and payouts), and the
@@ -54,11 +52,10 @@ const tnc: React.FC = () => {
             Shared Interests:
           </h5>
 
-          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
               Zenstreet is dedicated to delivering a cost-effective,
               transparent, and performance-driven model where the success of the
-              User's practice directly impacts the success of Zenstreet. This
+              User&apos;s practice directly impacts the success of Zenstreet. This
               Agreement reflects the mutually beneficial relationship intended
               by both Parties.
             </li>
@@ -70,20 +67,19 @@ const tnc: React.FC = () => {
           </h5>
           <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
             <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              "Zenstreet": The digital service and platform provided by ISAZEN
+              &quot;Zenstreet&quot;: The digital service and platform provided by ISAZEN
               TECHNOLOGIES PRIVATE LIMITED.
-            </li>
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              "User": A licensed therapist who registers on and uses the
+            </li>            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+              &quot;User&quot;: A licensed therapist who registers on and uses the
               Platform.
             </li>
             <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              "Services": All functionalities provided by Zenstreet, including
+              &quot;Services&quot;: All functionalities provided by Zenstreet, including
               scheduling, invoicing, note taking, video calling, patient
               tracking, and payment facilitation.
             </li>
             <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              "Platform": The website, mobile application, and related services
+              &quot;Platform&quot;: The website, mobile application, and related services
               provided by Zenstreet.
             </li>
           </ul>
@@ -191,7 +187,7 @@ const tnc: React.FC = () => {
             <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
               For example, if a session is priced at INR 100, Zenstreet will
               retain INR 5 (subject to any additional gateway fees), and the net
-              amount will be deposited into the User's bank account.
+              amount will be deposited into the User&apos;s bank account.
             </li>
           </ul>
           <p className="tracking-wider sm:tracking-widest text-gray-600 text-base sm:text-lg">
@@ -208,11 +204,10 @@ const tnc: React.FC = () => {
             </li>
           </ul>
           <p className="tracking-wider sm:tracking-widest text-gray-600 text-base sm:text-lg">Payouts:</p>
-          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              Net proceeds, after the deduction of Zenstreet's fee and any
+          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+              Net proceeds, after the deduction of Zenstreet&apos;s fee and any
               applicable payment gateway charges, will be transferred to the
-              User's bank account on a regular payout cycle as defined by
+              User&apos;s bank account on a regular payout cycle as defined by
               Zenstreet.
             </li>
           </ul>
@@ -252,9 +247,8 @@ const tnc: React.FC = () => {
           <h5 className="text-base sm:text-lg text-gray-700 tracking-wider sm:tracking-widest">
             10. Data Privacy
           </h5>
-          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              The User's data will be handled in accordance with Zenstreet's
+          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+              The User&apos;s data will be handled in accordance with Zenstreet&apos;s
               Privacy Policy. By using the Platform, the User consents to the
               collection, use, and protection practices as detailed in the
               Privacy Policy.
@@ -291,9 +285,8 @@ const tnc: React.FC = () => {
           <h5 className="text-base sm:text-lg text-gray-700 tracking-wider sm:tracking-widest">
             13. Disclaimers and Limitation of Liability
           </h5>
-          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              As-Is Basis: The Platform and all Services are provided "as is"
+          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+              As-Is Basis: The Platform and all Services are provided &quot;as is&quot;
               without any express or implied warranties.
             </li>
             <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
@@ -312,9 +305,8 @@ const tnc: React.FC = () => {
           <h5 className="text-base sm:text-lg text-gray-700 tracking-wider sm:tracking-widest">
             14. Termination
           </h5>
-          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">
-            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
-              Zenstreet reserves the right to suspend or terminate the User's
+          <ul className="list-disc flex flex-col gap-3 sm:gap-4 px-4 sm:px-6 md:px-8 ml-3 sm:ml-5">            <li className="tracking-wider sm:tracking-widest text-gray-600 text-sm sm:text-base md:text-md">
+              Zenstreet reserves the right to suspend or terminate the User&apos;s
               access to the Platform, with or without prior notice, for any
               breach of this Agreement or conduct that is detrimental to the
               Platform or other users.
